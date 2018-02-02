@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2914D917C7F9B675DDFAF6C2D2C4027E /* JWAppIconUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BE853D2AB71FA4A0F49B41DB2D4BF00 /* JWAppIconUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		508B2630A3A51993AB20E87737D21FEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		66D12848E195AA55A412EE56D3A3FAA5 /* Pods-JWAppIconUpdate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 317D5CF2DF340854A7E13277BBFFB9E1 /* Pods-JWAppIconUpdate_Example-dummy.m */; };
+		688D17F1701FC000AD2142E2B7C237C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		7EBB6F499493274FCA36E4450259A692 /* JWAppIconUpdate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF49AC6862F53F0F96FF76C6D27B45C /* JWAppIconUpdate-dummy.m */; };
+		9EDF25993F32D1E8D2EC3FE17F127AAB /* Pods-JWAppIconUpdate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94C507B5F085EE0006E259BFACF8FDB2 /* Pods-JWAppIconUpdate_Tests-dummy.m */; };
+		B4B6816A2E9AECE119C82C302879EFE0 /* JWAppIconUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAEE02E1FDA0A33DDDAEA5FFA71E06F /* JWAppIconUpdate.m */; };
+		C2435D75D6B42B41A8BD23E527C5C47A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		598F80F0144DAC38843099D967964EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56DA834E9F386B7EAEAC229C46C6890C;
+			remoteInfo = JWAppIconUpdate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14652B667F0B24955237B80D6831029E /* libPods-JWAppIconUpdate_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JWAppIconUpdate_Tests.a"; path = "libPods-JWAppIconUpdate_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E47E8D31F9A950DE9A3C6EA0F89141 /* JWAppIconUpdate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JWAppIconUpdate.xcconfig; sourceTree = "<group>"; };
+		169268ABB7953F71C38DEE51F632D13A /* Pods-JWAppIconUpdate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWAppIconUpdate_Example-frameworks.sh"; sourceTree = "<group>"; };
+		317D5CF2DF340854A7E13277BBFFB9E1 /* Pods-JWAppIconUpdate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWAppIconUpdate_Example-dummy.m"; sourceTree = "<group>"; };
+		4176CF3FB7281F049157371130F46CE5 /* Pods-JWAppIconUpdate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWAppIconUpdate_Example.release.xcconfig"; sourceTree = "<group>"; };
+		47834668D8F0D40E0A33263FDF360392 /* Pods-JWAppIconUpdate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWAppIconUpdate_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4EAEE02E1FDA0A33DDDAEA5FFA71E06F /* JWAppIconUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JWAppIconUpdate.m; sourceTree = "<group>"; };
+		4F3706A5F66F33FAC1302239A9C0B866 /* Pods-JWAppIconUpdate_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWAppIconUpdate_Tests-resources.sh"; sourceTree = "<group>"; };
+		5BE853D2AB71FA4A0F49B41DB2D4BF00 /* JWAppIconUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JWAppIconUpdate.h; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77B7F9E2F3350EBC36522E448ACC8B30 /* Pods-JWAppIconUpdate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWAppIconUpdate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		78754355B45C08838F3FAF1AB4B14D4F /* Pods-JWAppIconUpdate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWAppIconUpdate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C507B5F085EE0006E259BFACF8FDB2 /* Pods-JWAppIconUpdate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWAppIconUpdate_Tests-dummy.m"; sourceTree = "<group>"; };
+		995CDB68C38B59A1B3BC5B1D451137E9 /* Pods-JWAppIconUpdate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWAppIconUpdate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6DD6D6D7F4A0C2F5D36C7DEF0E19FBD /* Pods-JWAppIconUpdate_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWAppIconUpdate_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B34D3E18B12183A91C007CCAAF8F4ABA /* Pods-JWAppIconUpdate_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JWAppIconUpdate_Example-resources.sh"; sourceTree = "<group>"; };
+		CFF49AC6862F53F0F96FF76C6D27B45C /* JWAppIconUpdate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JWAppIconUpdate-dummy.m"; sourceTree = "<group>"; };
+		D1996E0DA118A1A7767155F00DAE0CB2 /* Pods-JWAppIconUpdate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWAppIconUpdate_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E54E4CF31923594FE3AF227B2758C170 /* libJWAppIconUpdate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJWAppIconUpdate.a; path = libJWAppIconUpdate.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED1D35C66B9A3A0CEBE8344DE515CA7D /* Pods-JWAppIconUpdate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JWAppIconUpdate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEFE362374009799805D5AF35AF00C46 /* libPods-JWAppIconUpdate_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JWAppIconUpdate_Example.a"; path = "libPods-JWAppIconUpdate_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA3CD2B383F1205FCD7415FDCEDC62FA /* Pods-JWAppIconUpdate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JWAppIconUpdate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FBB27138F17326A63F2C704D33EDA282 /* JWAppIconUpdate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JWAppIconUpdate-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		684DDDD7BE02F335B655E72CFECCE16D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2435D75D6B42B41A8BD23E527C5C47A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF0FEF6D387801093CA0F8E703632357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				508B2630A3A51993AB20E87737D21FEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9C974848E5F13B1038E2694FBB0A6B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				688D17F1701FC000AD2142E2B7C237C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AC95BB53D56765DFA64928B56178BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E54E4CF31923594FE3AF227B2758C170 /* libJWAppIconUpdate.a */,
+				EEFE362374009799805D5AF35AF00C46 /* libPods-JWAppIconUpdate_Example.a */,
+				14652B667F0B24955237B80D6831029E /* libPods-JWAppIconUpdate_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B6750312174DD40D91672DDEE85ACF /* JWAppIconUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				DF443386058150D9AC32E2951F913D0D /* Classes */,
+			);
+			name = JWAppIconUpdate;
+			path = JWAppIconUpdate;
+			sourceTree = "<group>";
+		};
+		35B2A8038582D930DB15AD7C035A8D7A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C77014300983A41010664D4B23A8D480 /* Pods-JWAppIconUpdate_Example */,
+				A29C14A35E3A34BEBA0BF7BF581C2446 /* Pods-JWAppIconUpdate_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		37FA6DAB3AC24F09B1393C186F0E4537 /* JWAppIconUpdate */ = {
+			isa = PBXGroup;
+			children = (
+				11B6750312174DD40D91672DDEE85ACF /* JWAppIconUpdate */,
+				EEEA785B9E27BF6B2F396E6F4E1EB220 /* Support Files */,
+			);
+			name = JWAppIconUpdate;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DEA1A87E59320D8967894F5AF80E3E41 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				04AC95BB53D56765DFA64928B56178BF /* Products */,
+				35B2A8038582D930DB15AD7C035A8D7A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A29C14A35E3A34BEBA0BF7BF581C2446 /* Pods-JWAppIconUpdate_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				78754355B45C08838F3FAF1AB4B14D4F /* Pods-JWAppIconUpdate_Tests-acknowledgements.markdown */,
+				77B7F9E2F3350EBC36522E448ACC8B30 /* Pods-JWAppIconUpdate_Tests-acknowledgements.plist */,
+				94C507B5F085EE0006E259BFACF8FDB2 /* Pods-JWAppIconUpdate_Tests-dummy.m */,
+				A6DD6D6D7F4A0C2F5D36C7DEF0E19FBD /* Pods-JWAppIconUpdate_Tests-frameworks.sh */,
+				4F3706A5F66F33FAC1302239A9C0B866 /* Pods-JWAppIconUpdate_Tests-resources.sh */,
+				995CDB68C38B59A1B3BC5B1D451137E9 /* Pods-JWAppIconUpdate_Tests.debug.xcconfig */,
+				47834668D8F0D40E0A33263FDF360392 /* Pods-JWAppIconUpdate_Tests.release.xcconfig */,
+			);
+			name = "Pods-JWAppIconUpdate_Tests";
+			path = "Target Support Files/Pods-JWAppIconUpdate_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C77014300983A41010664D4B23A8D480 /* Pods-JWAppIconUpdate_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FA3CD2B383F1205FCD7415FDCEDC62FA /* Pods-JWAppIconUpdate_Example-acknowledgements.markdown */,
+				ED1D35C66B9A3A0CEBE8344DE515CA7D /* Pods-JWAppIconUpdate_Example-acknowledgements.plist */,
+				317D5CF2DF340854A7E13277BBFFB9E1 /* Pods-JWAppIconUpdate_Example-dummy.m */,
+				169268ABB7953F71C38DEE51F632D13A /* Pods-JWAppIconUpdate_Example-frameworks.sh */,
+				B34D3E18B12183A91C007CCAAF8F4ABA /* Pods-JWAppIconUpdate_Example-resources.sh */,
+				D1996E0DA118A1A7767155F00DAE0CB2 /* Pods-JWAppIconUpdate_Example.debug.xcconfig */,
+				4176CF3FB7281F049157371130F46CE5 /* Pods-JWAppIconUpdate_Example.release.xcconfig */,
+			);
+			name = "Pods-JWAppIconUpdate_Example";
+			path = "Target Support Files/Pods-JWAppIconUpdate_Example";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DEA1A87E59320D8967894F5AF80E3E41 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37FA6DAB3AC24F09B1393C186F0E4537 /* JWAppIconUpdate */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DF443386058150D9AC32E2951F913D0D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BE853D2AB71FA4A0F49B41DB2D4BF00 /* JWAppIconUpdate.h */,
+				4EAEE02E1FDA0A33DDDAEA5FFA71E06F /* JWAppIconUpdate.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EEEA785B9E27BF6B2F396E6F4E1EB220 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15E47E8D31F9A950DE9A3C6EA0F89141 /* JWAppIconUpdate.xcconfig */,
+				CFF49AC6862F53F0F96FF76C6D27B45C /* JWAppIconUpdate-dummy.m */,
+				FBB27138F17326A63F2C704D33EDA282 /* JWAppIconUpdate-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JWAppIconUpdate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		366EBF0CB3E8B8167056E6FD22A2E220 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2914D917C7F9B675DDFAF6C2D2C4027E /* JWAppIconUpdate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		56DA834E9F386B7EAEAC229C46C6890C /* JWAppIconUpdate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC4CDCFE39CAEE66C2B838F657565559 /* Build configuration list for PBXNativeTarget "JWAppIconUpdate" */;
+			buildPhases = (
+				309A28087782415C9718AA79C57EF94C /* Sources */,
+				684DDDD7BE02F335B655E72CFECCE16D /* Frameworks */,
+				366EBF0CB3E8B8167056E6FD22A2E220 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWAppIconUpdate;
+			productName = JWAppIconUpdate;
+			productReference = E54E4CF31923594FE3AF227B2758C170 /* libJWAppIconUpdate.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		734131A71556D31D6FD491694A4E018B /* Pods-JWAppIconUpdate_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A4FDB67AAFE3320D096415A8FD94952 /* Build configuration list for PBXNativeTarget "Pods-JWAppIconUpdate_Example" */;
+			buildPhases = (
+				363894FFF00137556AAE2C9A883D39A0 /* Sources */,
+				F9C974848E5F13B1038E2694FBB0A6B2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8EC7B86A9F4D7AA58603B3B1CD33784 /* PBXTargetDependency */,
+			);
+			name = "Pods-JWAppIconUpdate_Example";
+			productName = "Pods-JWAppIconUpdate_Example";
+			productReference = EEFE362374009799805D5AF35AF00C46 /* libPods-JWAppIconUpdate_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FDF7B8D8BEDD23850BFA9BA0B1A63B85 /* Pods-JWAppIconUpdate_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EB9D501B1A53682D81BB03C51648476 /* Build configuration list for PBXNativeTarget "Pods-JWAppIconUpdate_Tests" */;
+			buildPhases = (
+				E00009B6EC19D958B76E3B05C789DEA4 /* Sources */,
+				AF0FEF6D387801093CA0F8E703632357 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JWAppIconUpdate_Tests";
+			productName = "Pods-JWAppIconUpdate_Tests";
+			productReference = 14652B667F0B24955237B80D6831029E /* libPods-JWAppIconUpdate_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 04AC95BB53D56765DFA64928B56178BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56DA834E9F386B7EAEAC229C46C6890C /* JWAppIconUpdate */,
+				734131A71556D31D6FD491694A4E018B /* Pods-JWAppIconUpdate_Example */,
+				FDF7B8D8BEDD23850BFA9BA0B1A63B85 /* Pods-JWAppIconUpdate_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309A28087782415C9718AA79C57EF94C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EBB6F499493274FCA36E4450259A692 /* JWAppIconUpdate-dummy.m in Sources */,
+				B4B6816A2E9AECE119C82C302879EFE0 /* JWAppIconUpdate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		363894FFF00137556AAE2C9A883D39A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66D12848E195AA55A412EE56D3A3FAA5 /* Pods-JWAppIconUpdate_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00009B6EC19D958B76E3B05C789DEA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDF25993F32D1E8D2EC3FE17F127AAB /* Pods-JWAppIconUpdate_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8EC7B86A9F4D7AA58603B3B1CD33784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JWAppIconUpdate;
+			target = 56DA834E9F386B7EAEAC229C46C6890C /* JWAppIconUpdate */;
+			targetProxy = 598F80F0144DAC38843099D967964EE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C17F9898CB1EB70529325A5E2E2E2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47834668D8F0D40E0A33263FDF360392 /* Pods-JWAppIconUpdate_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7CBE870886B11014DDB1756EF0BFD1EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E47E8D31F9A950DE9A3C6EA0F89141 /* JWAppIconUpdate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JWAppIconUpdate/JWAppIconUpdate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8A62CAAFD6F05D89DA2BA1BAFAF37344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 995CDB68C38B59A1B3BC5B1D451137E9 /* Pods-JWAppIconUpdate_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BC6604B53C08193A4601014E83A2E312 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15E47E8D31F9A950DE9A3C6EA0F89141 /* JWAppIconUpdate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JWAppIconUpdate/JWAppIconUpdate-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0C467B51505C07A4156A80FE409DC76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4176CF3FB7281F049157371130F46CE5 /* Pods-JWAppIconUpdate_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F47CC9AA90E06C0033A831EFA4A89DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1996E0DA118A1A7767155F00DAE0CB2 /* Pods-JWAppIconUpdate_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EB9D501B1A53682D81BB03C51648476 /* Build configuration list for PBXNativeTarget "Pods-JWAppIconUpdate_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A62CAAFD6F05D89DA2BA1BAFAF37344 /* Debug */,
+				5C17F9898CB1EB70529325A5E2E2E2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A4FDB67AAFE3320D096415A8FD94952 /* Build configuration list for PBXNativeTarget "Pods-JWAppIconUpdate_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F47CC9AA90E06C0033A831EFA4A89DDC /* Debug */,
+				E0C467B51505C07A4156A80FE409DC76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC4CDCFE39CAEE66C2B838F657565559 /* Build configuration list for PBXNativeTarget "JWAppIconUpdate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6604B53C08193A4601014E83A2E312 /* Debug */,
+				7CBE870886B11014DDB1756EF0BFD1EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

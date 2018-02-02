@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface JWAppIconUpdate : NSObject
+@interface UIApplication (JWAppIconUpdate)
+
+- (void)updateAppIconWithName:(NSString *)name;
 
 @end

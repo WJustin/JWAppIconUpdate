@@ -7,23 +7,27 @@
 //
 
 #import "JWViewController.h"
+#import <JWAppIconUpdate/JWAppIconUpdate.h>
 
 @interface JWViewController ()
+
+@property (nonatomic, assign) BOOL isMainIcon;
 
 @end
 
 @implementation JWViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)switchIcon:(UIButton *)sender {
+    self.isMainIcon = !self.isMainIcon;
+    if (self.isMainIcon) {
+        [[UIApplication sharedApplication] updateAppIconWithName:@"新年"];
+    } else {
+        [[UIApplication sharedApplication] updateAppIconWithName:nil];
+    }
 }
 
 @end

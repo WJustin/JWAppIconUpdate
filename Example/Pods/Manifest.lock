@@ -1,0 +1,16 @@
+PODS:
+  - JWAppIconUpdate (0.1.0)
+
+DEPENDENCIES:
+  - JWAppIconUpdate (from `../`)
+
+EXTERNAL SOURCES:
+  JWAppIconUpdate:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JWAppIconUpdate: fbf8700f4979f1498f437a5c6173d132494993f7
+
+PODFILE CHECKSUM: ca0a8c333d4618a00de7995110af760d79272eec
+
+COCOAPODS: 1.2.0

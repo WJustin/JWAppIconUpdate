@@ -1,4 +1,4 @@
-use_frameworks!
+#use_frameworks!
 
 target 'JWAppIconUpdate_Example' do
   pod 'JWAppIconUpdate', :path => '../'
