@@ -9,6 +9,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## Preview
+
+<img src="https://github.com/WJustin/JWAppIconUpdate/blob/master/demo.gif" />
+
 ## Requirements
 
 ## Installation
