@@ -17,7 +17,7 @@ JWAppIconUpdate is available through [CocoaPods](http://cocoapods.org). To insta
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'JWAppIconUpdate'
+pod 'JWAppIconUpdate', :git => 'https://github.com/WJustin/JWAppIconUpdate.git', :tag => '0.1.0'
 ```
 
 ## Author

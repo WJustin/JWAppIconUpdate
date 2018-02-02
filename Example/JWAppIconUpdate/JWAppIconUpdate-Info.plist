@@ -8,6 +8,48 @@
 	<string>${PRODUCT_NAME}</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundleAlternateIcons</key>
+		<dict>
+			<key>新年</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>20pt@2x 新年</string>
+					<string>20pt@3x 新年</string>
+					<string>29pt@1x 新年</string>
+					<string>29pt@2x 新年</string>
+					<string>29pt@3x 新年</string>
+					<string>40pt@3x 新年</string>
+					<string>57pt@1x 新年</string>
+					<string>57pt@2x 新年</string>
+					<string>60pt@2x 新年</string>
+					<string>60pt@3x 新年</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>UIPrerenderedIcon</key>
+			<false/>
+		</dict>
+		<key>UINewsstandIcon</key>
+		<dict>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string></string>
+			</array>
+			<key>UINewsstandBindingEdge</key>
+			<string>UINewsstandBindingEdgeLeft</string>
+			<key>UINewsstandBindingType</key>
+			<string>UINewsstandBindingTypeMagazine</string>
+		</dict>
+	</dict>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -35,8 +77,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -45,47 +85,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>CFBundleIcons</key>
-    <dict>
-        <key>CFBundlePrimaryIcon</key>
-        <dict>
-            <key>CFBundleIconFiles</key>
-            <array>
-                <string></string>
-            </array>
-            <key>UIPrerenderedIcon</key>
-            <false/>
-        </dict>
-        <key>UINewsstandIcon</key>
-        <dict>
-            <key>CFBundleIconFiles</key>
-            <array>
-                <string></string>
-            </array>
-            <key>UINewsstandBindingType</key>
-            <string>UINewsstandBindingTypeMagazine</string>
-            <key>UINewsstandBindingEdge</key>
-            <string>UINewsstandBindingEdgeLeft</string>
-        </dict>
-        <key>CFBundleAlternateIcons</key>
-        <dict>
-            <key>新年</key>
-            <dict>
-                <key>CFBundleIconFiles</key>
-                <array>
-                    <string>20pt@2x 新年</string>
-                    <string>20pt@3x 新年</string>
-                    <string>29pt@1x 新年</string>
-                    <string>29pt@2x 新年</string>
-                    <string>29pt@3x 新年</string>
-                    <string>40pt@3x 新年</string>
-                    <string>57pt@1x 新年</string>
-                    <string>57pt@2x 新年</string>
-                    <string>60pt@2x 新年</string>
-                    <string>60pt@3x 新年</string>
-                </array>
-            </dict>
-        </dict>
-    </dict>
 </dict>
 </plist>
