@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JWAppIconUpdate_Example' do
+  pod 'JWAppIconUpdate', :path => '../'
+
+  target 'JWAppIconUpdate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
